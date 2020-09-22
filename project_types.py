@@ -8,8 +8,8 @@ connection_enable = dict()
 connection_pins = dict()
 
 # 'bla1' pins
-connection_enable['bla1'] = '0'
-connection_pins['bla1'] = ['1', '2', '3']
+connection_enable['bla1'] = 4
+connection_pins['bla1'] = [17, 27, 22]
 
 # 'bla2' pins
 connection_enable['bla2'] = '0'
