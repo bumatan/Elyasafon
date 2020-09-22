@@ -10,7 +10,6 @@ class connection_controller(object):
         GPIO.setup(enable_pin, GPIO.OUT)
         for pin in self.index_pins:
             GPIO.setup(pin, GPIO.OUT)
-            print('doing setup for', pin)
 
     def connect(self, index):
         # Enable connection
@@ -21,6 +20,7 @@ class connection_controller(object):
         print(pins_values)
         for index in range(len(self.index_pins)-1):
             if (pins_values[index] == '1'):
+                print('setting pin value ', pins_values[index])
                 GPIO.output(self.index_pins[index], GPIO.HIGH)
             else:
                 GPIO.output(self.index_pins[index], GPIO.LOW)
