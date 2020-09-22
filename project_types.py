@@ -16,9 +16,9 @@ connection_enable['bla2'] = 18
 connection_pins['bla2'] = [22, 24, 26]
 
 # 'bla3' pins
-connection_enable['bla3'] = 28
-connection_pins['bla3'] = [32, 36, 38]
+connection_enable['bla3'] = 32
+connection_pins['bla3'] = [36, 38, 40]
 
 # 'bla4' pins
-connection_enable['bla4'] = 40
-connection_pins['bla4'] = [3, 5, 7]
+connection_enable['bla4'] = 3
+connection_pins['bla4'] = [5, 7, 11]
