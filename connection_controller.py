@@ -4,8 +4,8 @@ class connection_controller(object):
     def __init__(self, enable_pin, index_pins):
         self.enable_pin = LED(enable_pin)
         self.index_pins = []
-        
-        for index in index_pins
+
+        for index in index_pins:
             self.index_pins.append(LED(index))
         
     def connect(self, index):
