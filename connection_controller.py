@@ -16,7 +16,7 @@ class connection_controller(object):
         GPIO.output(self.enable_pin, GPIO.HIGH)
 
         # Walk on all the bin values and set the correct index
-        pins_values = bin(index)[2:]
+        pins_values = bin(index-1)[2:]
         for index in range(len(self.index_pins)-1):
             if (pins_values[index] == '1'):
                 GPIO.output(self.index_pins[index], GPIO.HIGH)
