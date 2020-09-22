@@ -7,6 +7,7 @@ class connection_controller(object):
         
         # Init all pins
         GPIO.setmode(GPIO.BOARD)
+        GPIO.setwarnings(False)
         GPIO.setup(enable_pin, GPIO.OUT)
         for pin in self.index_pins:
             GPIO.setup(pin, GPIO.OUT)
