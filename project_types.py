@@ -8,17 +8,17 @@ connection_enable = dict()
 connection_pins = dict()
 
 # 'bla1' pins
-connection_enable['bla1'] = 4
-connection_pins['bla1'] = [17, 27, 22]
+connection_enable['bla1'] = 8
+connection_pins['bla1'] = [10, 12, 16]
 
 # 'bla2' pins
-connection_enable['bla2'] = 10
-connection_pins['bla2'] = [9, 11, 0]
+connection_enable['bla2'] = 18
+connection_pins['bla2'] = [22, 24, 26]
 
 # 'bla3' pins
-connection_enable['bla3'] = 5
-connection_pins['bla3'] = [6, 13, 19]
+connection_enable['bla3'] = 28
+connection_pins['bla3'] = [32, 36, 38]
 
 # 'bla4' pins
-connection_enable['bla4'] = 26
-connection_pins['bla4'] = [14, 15, 18]
+connection_enable['bla4'] = 40
+connection_pins['bla4'] = [3, 5, 7]
