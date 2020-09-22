@@ -22,7 +22,7 @@ args = parser.parse_args(args=None if sys.argv[1:] else ['--help'])
 d_manager = device_manager.device_manager()
 if args.command == 'connect':
     d_manager.connect(args.connection_type, args.index)
-    print('Your device is now connected')
+    print('Your device is now connected. I\'ve connected', args.connection_type,'to port number', args.index)
 if args.command == 'release':
     d_manager.release(args.connection_type)
-    print('Your device is now released')
+    print('Your device is now released.', args.connection_type, 'is not connected anymore')
