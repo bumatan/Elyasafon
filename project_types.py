@@ -12,13 +12,13 @@ connection_enable['bla1'] = 4
 connection_pins['bla1'] = [17, 27, 22]
 
 # 'bla2' pins
-connection_enable['bla2'] = '0'
-connection_pins['bla2'] = ['1', '2', '3']
+connection_enable['bla2'] = 4
+connection_pins['bla2'] = [17, 27, 22]
 
 # 'bla3' pins
-connection_enable['bla3'] = '0'
-connection_pins['bla3'] = ['1', '2', '3']
+connection_enable['bla3'] = 4
+connection_pins['bla3'] = [17, 27, 22]
 
 # 'bla4' pins
-connection_enable['bla4'] = '0'
-connection_pins['bla4'] = ['1', '2', '3']
+connection_enable['bla4'] = 4
+connection_pins['bla4'] = [17, 27, 22]
